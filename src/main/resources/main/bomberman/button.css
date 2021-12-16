@@ -1,0 +1,13 @@
+.button {
+    -fx-background-color: transparent;
+}
+
+#idContinueBtn:hover{
+    -fx-text-fill: yellow!important;
+}
+
+.button:hover {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 50%, #FFFFFF33, #00000033);
+    -fx-text-fill: white;
+    -fx-background-radius: 5 5 5 5;
+}

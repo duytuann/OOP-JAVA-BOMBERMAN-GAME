@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1344.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.bomberman.gui.GetNamePlayer">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1361.0" layoutX="-4.0" layoutY="-177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/backgroundname.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="498.0" fitWidth="891.0" layoutX="248.0" layoutY="-58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/images-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="216.0" fitWidth="251.0" layoutX="1037.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/images__1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="263.0" layoutX="542.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/UI___UIX_elements_for_videogames.png-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="301.0" layoutY="511.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/kisspng-solid-snake-video-games-super-bomberman-r-metal-ge-5bf84117b17e95.807461921542996247727-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="246.0" fitWidth="248.0" layoutX="1036.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/kisspng-super-bomberman-bomberman-64-bomberman-live-bomber-25th-anniversary-5b2c9a582f9e93.5883815715296497521951-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="368.0" fitWidth="263.0" layoutX="33.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/png-transparent-super-bomberman-r-bomberman-blast-nintendo-switch-video-game-others-game-balloon-nintendo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="namePlayer" layoutX="485.0" layoutY="445.0" prefHeight="45.0" prefWidth="381.0">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </TextField>
+      <Label layoutX="499.0" layoutY="335.0" prefHeight="94.0" prefWidth="353.0" text="Enter your name !" textFill="#ff5353">
+         <font>
+            <Font name="Algerian" size="44.0" />
+         </font>
+      </Label>
+      <Button id="idContinueBtn" layoutX="591.0" layoutY="520.0" mnemonicParsing="false" onAction="#continueBtn" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: transparent;" stylesheets="@button.css" text="Continue" textFill="#ff8787">
+         <font>
+            <Font name="Algerian" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
