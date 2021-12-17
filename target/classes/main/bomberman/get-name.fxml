@@ -20,7 +20,7 @@
             <Image url="@../Image/images-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="216.0" fitWidth="251.0" layoutX="1037.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="216.0" fitWidth="251.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Image/images__1_-removebg-preview.png" />
          </image>
@@ -30,19 +30,9 @@
             <Image url="@../Image/UI___UIX_elements_for_videogames.png-removebg-preview.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="210.0" fitWidth="301.0" layoutY="511.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="210.0" fitWidth="301.0" layoutX="1035.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Image/kisspng-solid-snake-video-games-super-bomberman-r-metal-ge-5bf84117b17e95.807461921542996247727-removebg-preview.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="246.0" fitWidth="248.0" layoutX="1036.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Image/kisspng-super-bomberman-bomberman-64-bomberman-live-bomber-25th-anniversary-5b2c9a582f9e93.5883815715296497521951-removebg-preview.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="368.0" fitWidth="263.0" layoutX="33.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Image/png-transparent-super-bomberman-r-bomberman-blast-nintendo-switch-video-game-others-game-balloon-nintendo-removebg-preview.png" />
          </image>
       </ImageView>
       <TextField fx:id="namePlayer" layoutX="485.0" layoutY="445.0" prefHeight="45.0" prefWidth="381.0">
