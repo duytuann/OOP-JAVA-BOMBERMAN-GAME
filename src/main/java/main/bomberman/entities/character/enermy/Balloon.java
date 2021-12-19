@@ -1,10 +1,10 @@
 package main.bomberman.entities.character.enermy;
 
-import main.bomberman.entities.character.enermy.ai.AILow;
+import main.bomberman.entities.character.enermy.ai.AIRandom;
 
 public class Balloon extends Enemy {
     public Balloon(){
-        brain = new AILow();
+        brain = new AIRandom();
 
         setFrame("sprites\\balloom_left", "sprites\\balloom_left",
                 "sprites\\balloom_right", "sprites\\balloom_right", 3);

@@ -1,12 +1,12 @@
 package main.bomberman.entities.character.enermy;
 
-import main.bomberman.entities.character.enermy.ai.AIHigh;
+import main.bomberman.entities.character.enermy.ai.AIPro;
 
 import java.util.Random;
 
 public class Minvo extends Enemy{
     public Minvo(){
-        brain = new AIHigh(bomber, this);
+        brain = new AIPro(bomber, this);
 
         setFrame("sprites\\minvo_left", "sprites\\minvo_left",
                 "sprites\\minvo_right", "sprites\\minvo_right", 3);
@@ -25,19 +25,19 @@ public class Minvo extends Enemy{
             bomber.kill();
         }
 
-        if(!((AIHigh)brain).inTheDes()) {
-            if (((AIHigh) brain).checkPos(positionX, positionY)) {
-                setStatusMove(((AIHigh) brain).getNextDir());
+        if(!((AIPro)brain).inTheDes()) {
+            if (((AIPro) brain).checkPos(positionX, positionY)) {
+                setStatusMove(((AIPro) brain).getNextDir());
             } else {
                 positionX += velocityX;
                 positionY += velocityY;
             }
         }
         else {
-            if(!((AIHigh)brain).isThinking())
-                ((AIHigh)brain).creatWay();
+            if(!((AIPro)brain).isThinking())
+                ((AIPro)brain).creatWay();
             else {
-                if(!((AIHigh)brain).canSolve()){
+                if(!((AIPro)brain).canSolve()){
                     Random random = new Random();
                     setStatusMove(random.nextInt(4));
                 }
